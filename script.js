@@ -146,7 +146,7 @@ function App() {
                         <div className="profile-image-container"><img src="image/En1LT8kUwAA6CxF.jpg" alt="P" className="profile-img" /><p>SHAYRAIM</p></div>
                         <div className="profile-image-container"><img src="image/IMG_2497.jpeg" alt="P" className="profile-img" /><p>NYX</p></div>
                         <h1 className="profile-title">YBA Tier List</h1>
-                        <div className="disclaimer-box"><p><strong>Disclaimer:</strong> This tier list is <strong>not to be taken seriously</strong>. It changes every week based on performance.</p></div>
+                        <div className="disclaimer-box"><p><strong>Disclaimer:</strong> This tier list is <strong>not to be taken seriously</strong>. Placements are updated weekly. Rank changes only occur for active players; those who stop playing cannot move down, but may rise depending on the performance of active competitors.</p></div>
                     </div>
                 </div>
                 <h1 className="hero-title"><br/>TIERLIST</h1>
@@ -186,4 +186,5 @@ function App() {
     );
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(<App />);
